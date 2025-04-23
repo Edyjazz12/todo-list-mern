@@ -1,0 +1,101 @@
+/* App.css */
+
+/* Fondo general */
+body {
+  background-color: #f4f7fc; /* Gris claro */
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabecera */
+h1 {
+  text-align: center;
+  color: #fff;
+  background-color: #2a3d66; /* Azul oscuro */
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Contenedor principal */
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Formulario de tareas */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+/* Campo de entrada */
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 100%;
+  background-color: #f9f9f9;
+}
+
+/* Botón de agregar tarea */
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #3b8fd4; /* Azul brillante */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #256a98; /* Azul más oscuro */
+}
+
+/* Lista de tareas */
+ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+/* Elementos de la lista */
+li {
+  background-color: #e6f2ff; /* Azul suave */
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Botón de eliminar */
+button {
+  background-color: #f44336; /* Rojo para eliminar */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #d32f2f; /* Rojo más oscuro */
+}
